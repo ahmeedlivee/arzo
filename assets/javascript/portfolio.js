@@ -40,7 +40,7 @@ Thanks for:
 
                 {
                     name: 'discord',
-                    link: 'https://discord.gg/674VNA5'
+                    link: 'https://discord.gg/z7ZT5mk'
                 },
                 
                 {
