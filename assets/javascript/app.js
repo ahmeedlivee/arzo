@@ -13,12 +13,7 @@ var _app = function ()
     this.shouldIgnoreVideo = false;
     this.effects = ["bounce", "flash", "pulse", "rubberBand", "shake", "swing", "tada", "wobble", "jello"];
     this.brandDescription = [
-        "skid gang",
-        "youtuber", 
-        "reverse engineer", 
-        ".net developer", 
-        "cracker", 
-        "11 yo"
+        "arzo#1163"
     ];
 
     this.titleChanger = function (text, delay)
