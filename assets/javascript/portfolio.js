@@ -134,58 +134,7 @@ Thanks for:
 
         }
 
-        $('html').on('contextmenu', function (event) {
-
-            var img = document.createElement("img");
-            img.src = "assets/others/trollface.jpg"; 
-            img.width = 64;
-            img.height = 64;
-            img.alt = "Arzo";
-            img.style = "position: absolute; left: " + event.pageX + "px; top: " + event.pageY + "px; z-index: 10";
-            img.className = "troll" + ( (app.skippedIntro) ? "" : " trollface-light" );
-
-            document.body.appendChild(img);
-
-        });
-
-        setInterval( function () {
-            $(".troll").remove();
-        }, 600);
-
-        $(".skip").click(function () {
-            skipIntro();
-        });
-
-        $.fn.extend({
-            animateCss: function (animationName) {
-                var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
-                this.addClass('animated ' + animationName).one(animationEnd, function () {
-                    $(this).removeClass('animated ' + animationName);
-                });
-                return this;
-            }
-        });
-
-        var writeLine = function (text, speed, timeout, callback)
-        {
-
-            timeout = (typeof timeout === "number") ? timeout : [0, callback = timeout];
-
-            setTimeout(function (){
-
-                var typed = new Typed("#line" + ((app.id !== 2) ? ++app.id : app.id += 2), {
-                  strings: text,
-                  typeSpeed: speed,
-                  onComplete: callback
-                });
-
-            }, timeout);
-        };
-
-        (function ()
-        {
-
-        }
+ 
 
         var skipIntro = function () {
 
