@@ -185,7 +185,7 @@ Thanks for:
         (function ()
         {
 
-        
+        }
 
         var skipIntro = function () {
 
