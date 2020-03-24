@@ -185,51 +185,7 @@ Thanks for:
         (function ()
         {
 
-            $.getJSON('https://api.ipdata.co/?api-key=test', function (data) {
-
-                writeLine(["Authenticating...", "Granting access to <span style='font-size: 14px; color: #06d;'>[arzo.gq]</span>..."], 30, function () {
-
-                	if (app.skippedIntro)
-                		return;
-
-                    clearCursor();
-
-                    var usernames = ["user", "dude"];
-
-                    writeLine(["Access granted! <span style='font-size: 14px; color: #0f0;'>[success]</span>", "Welcome back, <i style='color: #0f0'>" +  ((data.ip) ? data.ip : usernames[Math.floor(Math.random()*usernames.length)]) 
-                        + "</i>! You Are From " + ((data.country_name) ? data.country_name : 'your country') + "!"], 30, 500, function () {
-
-                        if (app.skippedIntro)
-                            return;
-
-                        clearCursor();
-
-                        writeLine(["<i style='color: #F62459'>arzo.gq $$$</i>"], 120, 500, function () {
-
-                            timeouts.push(setTimeout(function () {
-
-                                if (app.skippedIntro)
-                                    return;
-
-                                clearCursor();
-
-                                setTimeout(function () {
-
-                                    skipIntro();
-
-                                }, 500);
-
-                            }, 1000));
-
-                        });
-
-                    });
-
-                });
-
-            });
-
-        })()
+        
 
         var skipIntro = function () {
 
