@@ -46,8 +46,12 @@ Thanks for:
                 {
                     name: 'youtube',
                     link: 'https://www.youtube.com/channel/UCY6J8om0uRNYpE2-TgYgNOg?view_as=subscriber'
-                }
-                
+                },
+
+                {
+                    name: 'discord',
+                    link: 'https://discord.gg/MZqwxMG'
+                }          
           
             ];
          
