@@ -39,19 +39,15 @@ Thanks for:
             var links = [
 
                 {
-                    name: 'discord',
-                    link: 'https://discord.gg/z7ZT5mk'
+                    name: 'shop',
+                    link: 'https://hexpay.gg/u/arzo'
                 },
                 
                 {
                     name: 'youtube',
                     link: 'https://www.youtube.com/channel/UCY6J8om0uRNYpE2-TgYgNOg?view_as=subscriber'
-                },
-                
-                {
-                    name: 'twitter',
-                    link: 'https://twitter.com/thicc_arzo'
                 }
+                
           
             ];
          
@@ -83,12 +79,7 @@ Thanks for:
             {
             app.titleChanger();
             app.iconChanger([
-                "assets/icons/roses/rose1.jpg", 
-                "assets/icons/roses/rose2.jpg", 
-                "assets/icons/roses/rose3.jpg", 
-                "assets/icons/roses/rose4.jpg", 
-                "assets/icons/roses/rose5.jpg", 
-                "assets/icons/roses/rose1.jpg", 
+                "assets/icons/roses/pepe.png", 
             ]);
             }
 
